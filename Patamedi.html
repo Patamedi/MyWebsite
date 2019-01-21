@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<title>PataBantwana</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: black;}
+#News {background-color: black;}
+#Contact {background-color: black;}
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* clear floats */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/********* Simple or original overlay *******/
+/* Main container */
+.overlay-image {
+ position: relative;
+ width: 100%;
+}
+/* Original image */
+.overlay-image .image {
+ display: block;
+ width: 100%;
+ height: auto;
+}
+/* Original text overlay */
+.overlay-image .text {
+ color: #fff;
+ font-size: 30px;
+ line-height: 1.5em;
+ text-shadow: 2px 2px 2px #000;
+ text-align: center;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 100%;
+}
+
+</style>
+<body class="w3-black">
+
+
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="Images\Chest.jpg" style="width:100%">
+  <a href="Patamedi.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="Portfolio.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>WORK</p>
+  </a>
+  <a href="Contact.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="Patamedi.html" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="Portfolio.html" class="w3-bar-item w3-button" style="width:25% !important">PORTFOLIO</a>
+    <a href="Contact.html" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"> Patamedi Lebea</h1>
+    <p>Writer, Broadcaster and Content Producer.</p>
+    <img src="Images\Dark me.jpg" alt="Swagga" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Patamedi</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <h3>Patamedi Jonathan Lebea. I have more nicknames than I care to remember: Pati, PataPata, PJ, Jono, PataBantwana etc. All of them are fine excpet one. Pat. I hate the name Pat. It's not just that people who hear that name allmost always presume my full name is Patrick whilst the rest jokingly call me Patricia, no. I dislike the name Pat, mostly because the most well known figure with the same name was a postman with a black and white cat, and who's greatest achievement was great service delivery. My name, my real name, means so much more. Patamedi, which means Warrior in kelobedu, was given to me by my father who himself was the son of Jonathan Patamedi Lebea, my grandfather. 
+
+   	Patamedi i snot just a name but also an identity. I am a warrior in all that I do; I fight to the finish, and the finish will be when I win.
+
+   	I am a creative hybrid who is yet to find a thing they cannot do. Having said that, writing and creative strategy are my greatest abilities in my catalogue of creative superpowers.  In simple: <b> I'm a full-time creative, part-time superhero with no time to explain... </b>
+    </h3>
+    <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My skills</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+  <div class="row">
+  <div class="column">
+<div class="overlay-image"><a href="LINK_URL">
+ <img class="image" src="Images\Thinker.jpg" alt="Alt text" />
+ <div class="text">Writing & Strategy</div>
+</a></div>
+  </div>
+  <div class="column">
+<div class="overlay-image"><a href="LINK_URL">
+ <img class="image" src="Images\Onair.jpg" alt="Alt text" />
+ <div class="text">Broadcasting</div>
+</a></div>
+  </div>
+  <div class="column">
+    <div class="overlay-image"><a href="LINK_URL">
+ <img class="image" src="Images\Camera.jpg" alt="Alt text" />
+ <div class="text">Photography</div>
+</a></div>
+  </div>
+</div>
+
+
+
+<!-- <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3> -->
+
+    
+
+    <!-- <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p> 
+    <p>Bosso ya di bosso.</p>-->
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section 
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My skills</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+  <div class="row">
+  <div class="column">
+    <img src="img_snow.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img_forest.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+-->
+ 
+    
+   
+    <img src="Images\Chest.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+
+    <!-- Grid for photos -->
+   <!-- <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="C:\Users\user\Pictures\My Photography\IMG_9059.jpg" style="width:100%">
+        <img src="C:\Users\user\Pictures\My Photography\IMG_9352.jpg" style="width:100%">
+        <img src="C:\Users\user\Desktop\Website\Images\IMG_8978.jpg" style="width:100%">
+        <img src="C:\Users\user\Desktop\Website\Images\IMG_1854.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="C:\Users\user\Desktop\Website\Images\IMG_0107.jpg" style="width:100%">
+        <img src="C:\Users\user\Desktop\Website\Images\IMG_1909.jpg" style="width:100%">
+        <img src="C:\Users\user\Desktop\Website\Images\IMG_8928.jpg" style="width:100%">
+        <img src="C:\Users\user\Desktop\Website\Images\IMG_9880.jpg" style="width:100%">
+      </div>-->
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div> 
+
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a href= "facebook.com/pjlebea" class="fa fa-facebook-official w3-hover-opacity"></a>
+    
+    <a href= "instagram.com/patamedilebea/?hl=en" class="fa fa-instagram w3-hover-opacity"></a>
+    
+    <a href= "twitter.com/PatamediLebea" class="fa fa-twitter w3-hover-opacity"></a>
+    
+    <a href= "linkedin.com/in/patamedi-lebea-641422158/" class="fa fa-linkedin w3-hover-opacity"></a>
+
+    <p class="w3-medium">Remember... <a href="Images\IMG_0356.jpg" target="_blank" class="w3-hover-text-green">say it with your chest!</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
